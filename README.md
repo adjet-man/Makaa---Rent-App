@@ -48,13 +48,13 @@ npm install
 ```sql
 CREATE TABLE `rooms` (
   `rid` int(11) NOT NULL AUTO_INCREMENT,
-  `Number` varchar(255) DEFAULT NULL,
+  `Number` int(11) DEFAULT NULL,
   `Name` varchar(255) DEFAULT NULL,
-  `Price` varchar(255) DEFAULT NULL,
+  `Price` int(11) DEFAULT NULL,
   `Location` varchar(255) DEFAULT NULL,
   `Type` varchar(255) DEFAULT NULL,
-  `Bathroom` varchar(255) DEFAULT NULL,
-  `Bed` varchar(255) DEFAULT NULL,
+  `Bathroom` int(2) DEFAULT NULL,
+  `Bed` int(2) DEFAULT NULL,
   `Benefit_1` varchar(255) DEFAULT NULL,
   `Benefit_2` varchar(255) DEFAULT NULL,
   `Benefit_3` varchar(255) DEFAULT NULL,
