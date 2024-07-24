@@ -1,5 +1,3 @@
-Sure! Here's a README file for the "Makaa Rent App":
-
 ---
 
 # Makaa Rent App
